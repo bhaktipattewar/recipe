@@ -445,7 +445,7 @@ function showRecipes() {
       main: [
         {
           name: "Paneer Butter Masala",
-          img: "img/paneersabji.jpg",
+          img: "paneersabji.jpg",
           cuisine: "Indian",
           ingredients: ["Paneer", "Tomatoes", "Cream", "Butter", "Spices"],
           steps: [
@@ -458,7 +458,7 @@ function showRecipes() {
 
 {
   name: "Chole Bhature",
-  img: "img/chole.jpeg",
+  img: "chole.jpeg",
   cuisine: "Indian",
   ingredients: ["Chickpeas", "Onion", "Tomatoes", "Spices", "Flour", "Yogurt"],
   steps: [
@@ -471,7 +471,7 @@ function showRecipes() {
 
 {
   name: "Vegetable Biryani",
-  img: "img/biryani.jpg",
+  img: "biryani.jpg",
  cuisine: "Indian",
   ingredients: ["Rice", "Mixed vegetables", "Yogurt", "Spices", "Saffron", "Fried onions"],
   steps: [
@@ -484,7 +484,7 @@ function showRecipes() {
 
 {
   name: "Palak Paneer",
-  img: "img/palak.jpg",
+  img: "palak.jpg",
  cuisine: "Indian",
   ingredients: ["Spinach", "Paneer", "Garlic", "Green chilies", "Cream"],
   steps: [
@@ -496,7 +496,7 @@ function showRecipes() {
 },
 {
   name: "Rajma Chawal",
-  img: "img/rajma.jpg",
+  img: "rajma.jpg",
  cuisine: "Indian",
   ingredients: ["Kidney beans", "Onion", "Tomatoes", "Spices", "Rice"],
   steps: [
@@ -508,7 +508,7 @@ function showRecipes() {
 },
 {
   name: "Aloo Gobi",
-  img: "img/aloogobi.jpg",
+  img: "aloogobi.jpg",
  cuisine: "Indian",
   ingredients: ["Potatoes", "Cauliflower", "Tomatoes", "Spices", "Coriander"],
   steps: [
@@ -520,7 +520,7 @@ function showRecipes() {
 
 {
   name: "Matar Paneer",
-  img: "img/matar-paneer.jpg",
+  img: "matar-paneer.jpg",
   ingredients: ["Paneer", "Green peas", "Tomatoes", "Onions", "Spices", "Ginger-garlic paste"],
   steps: [
     "Sauté onions, add tomatoes and spices to make a gravy.",
@@ -530,7 +530,7 @@ function showRecipes() {
 },
 {
   name: "Okra Curry (Bhindi Curry)",
-  img: "img/okra-curry.jpg",
+  img: "okra-curry.jpg",
   ingredients: ["Okra (Bhindi)", "Onions", "Tomatoes", "Yogurt", "Spices"],
   steps: [
     "Wash and sauté okra until non-sticky.",
@@ -540,7 +540,7 @@ function showRecipes() {
 },
 {
   name: "Paneer Bhurji",
-  img: "img/paneer-bhurji.jpg",
+  img: "paneer-bhurji.jpg",
   ingredients: ["Paneer", "Onions", "Tomatoes", "Green chilies", "Spices", "Coriander"],
   steps: [
     "Heat oil and sauté onions and green chilies.",
@@ -551,7 +551,7 @@ function showRecipes() {
 },
 {
   name: "Punjabi Chole",
-  img: "img/punjabi-chole.jpg",
+  img: "punjabi-chole.jpg",
   ingredients: ["Chickpeas", "Onions", "Tomatoes", "Chole masala", "Ginger-garlic paste"],
   steps: [
     "Soak and cook chickpeas until soft.",
@@ -561,7 +561,7 @@ function showRecipes() {
 },
 {
   name: "Shahi Paneer (Punjabi Style)",
-  img: "img/shahi-paneer.jpg",
+  img: "shahi-paneer.jpg",
   ingredients: ["Paneer", "Cashews", "Cream", "Onions", "Tomatoes", "Spices", "Milk"],
   steps: [
     "Soak and blend cashews for paste.",
@@ -571,7 +571,7 @@ function showRecipes() {
 },
 {
   name: "Chana Palak",
-  img: "img/chana-palak.jpg",
+  img: "chana-palak.jpg",
   ingredients: ["Chickpeas", "Spinach", "Onions", "Tomatoes", "Spices"],
   steps: [
     "Boil chickpeas until tender.",
@@ -582,7 +582,7 @@ function showRecipes() {
 },
 {
   name: "Methi Matar Malai",
-  img: "img/methi-matar-malai.jpg",
+  img: "methi-matar-malai.jpg",
   ingredients: ["Fenugreek leaves", "Green peas", "Fresh cream", "Onions", "Cashew paste", "Spices"],
   steps: [
     "Sauté onions and blend with cashews.",
@@ -593,7 +593,7 @@ function showRecipes() {
 
 {
   name: "Sarson ka Saag",
-  img: "img/sarson-ka-saag.jpg",
+  img: "sarson-ka-saag.jpg",
   ingredients: ["Mustard leaves (sarson)", "Spinach", "Bathua (optional)", "Onion", "Ginger", "Makki atta", "Ghee"],
   steps: [
     "Clean and boil mustard, spinach, and bathua leaves.",
@@ -604,7 +604,7 @@ function showRecipes() {
 },
 {
   name: "Paneer Lababdar",
-  img: "img/paneer-lababdar.jpg",
+  img: "paneer-lababdar.jpg",
   ingredients: ["Paneer", "Tomatoes", "Onions", "Cashews", "Cream", "Butter", "Spices"],
   steps: [
     "Cook and blend tomatoes, onions, and cashews into a smooth gravy.",
@@ -614,7 +614,7 @@ function showRecipes() {
 },
 {
   name: "Capsicum Curry",
-  img: "img/capsicum-curry.jpg",
+  img: "capsicum-curry.jpg",
   ingredients: ["Capsicum", "Onions", "Tomatoes", "Peanuts", "Sesame seeds", "Spices"],
   steps: [
     "Dry roast peanuts and sesame seeds, grind to paste.",
@@ -624,7 +624,7 @@ function showRecipes() {
 },
 {
   name: "Kadai Paneer",
-  img: "img/kadai-paneer.jpg",
+  img: "kadai-paneer.jpg",
   ingredients: ["Paneer", "Bell peppers", "Tomatoes", "Onions", "Kadai masala (roasted spices)", "Ginger", "Garlic"],
   steps: [
     "Prepare kadai masala using dry roasted coriander and red chilies.",
@@ -635,7 +635,7 @@ function showRecipes() {
 
 {
   name: "Paneer Makhani",
-  img: "img/paneer-makhani.jpg",
+  img: "paneer-makhani.jpg",
   ingredients: ["Paneer", "Tomato puree", "Cream", "Butter", "Spices", "Honey"],
   steps: [
     "Sauté tomato puree with spices in butter.",
@@ -645,7 +645,7 @@ function showRecipes() {
 },
 {
   name: "Baingan Bharta",
-  img: "img/baingan-bharta.jpg",
+  img: "baingan-bharta.jpg",
   ingredients: ["Eggplant (baingan)", "Onions", "Tomatoes", "Garlic", "Spices"],
   steps: [
     "Roast the eggplant over flame and peel the skin.",
@@ -655,7 +655,7 @@ function showRecipes() {
 },
 {
   name: "Malai Kofta",
-  img: "img/malai-kofta.jpg",
+  img: "malai-kofta.jpg",
   ingredients: ["Paneer", "Potatoes", "Cashews", "Cream", "Tomatoes", "Spices"],
   steps: [
     "Make koftas using mashed paneer and potatoes, deep fry.",
@@ -665,7 +665,7 @@ function showRecipes() {
 },
 {
   name: "Veg Kolhapuri",
-  img: "img/veg-kolhapuri.jpg",
+  img: "veg-kolhapuri.jpg",
   ingredients: ["Mixed vegetables", "Kolhapuri masala", "Tomatoes", "Onions", "Ginger garlic paste"],
   steps: [
     "Cook vegetables until tender.",
@@ -675,7 +675,7 @@ function showRecipes() {
 },
 {
   name: "Paneer Kofta Curry",
-  img: "img/paneer-kofta-curry.jpg",
+  img: "paneer-kofta-curry.jpg",
   ingredients: ["Paneer", "Potatoes", "Cream", "Tomatoes", "Cashew paste", "Spices"],
   steps: [
     "Prepare koftas with paneer and mashed potatoes, deep fry.",
@@ -685,7 +685,7 @@ function showRecipes() {
 },
 {
   name: "Achari Paneer",
-  img: "img/achari-paneer.jpg",
+  img: "achari-paneer.jpg",
   ingredients: ["Paneer", "Pickling spices", "Yogurt", "Onions", "Garlic", "Mustard oil"],
   steps: [
     "Marinate paneer in yogurt and achari masala.",
@@ -695,7 +695,7 @@ function showRecipes() {
 },
 {
   name: "Veg Handi",
-  img: "img/veg-handi.jpg",
+  img: "veg-handi.jpg",
   ingredients: ["Mixed vegetables", "Onions", "Tomatoes", "Cream", "Cashews", "Spices"],
   steps: [
     "Sauté vegetables until tender.",
@@ -705,7 +705,7 @@ function showRecipes() {
 },
 {
   name: "Paneer Jalfrezi",
-  img: "img/paneer-jalfrezi.jpg",
+  img: "paneer-jalfrezi.jpg",
   ingredients: ["Paneer", "Bell peppers", "Onions", "Tomatoes", "Spices"],
   steps: [
     "Stir-fry onions, tomatoes, and bell peppers.",
@@ -727,7 +727,7 @@ function showRecipes() {
 desserts: [
        {
   name: "Gulab Jamun",
-  img: "img/gulabjamun.jpg",
+  img: "gulabjamun.jpg",
 cuisine: "Indian",
   ingredients: ["Khoya", "Flour", "Sugar", "Cardamom", "Ghee"],
   steps: [
@@ -738,7 +738,7 @@ cuisine: "Indian",
 },
 {
   name: "Rasgulla",
-  img: "img/rasgulla.jpg",
+  img: "rasgulla.jpg",
   ingredients: ["Chenna (paneer)", "Sugar", "Water", "Rose water"],
   steps: [
     "Knead chenna and make soft balls.",
@@ -748,7 +748,7 @@ cuisine: "Indian",
 },
 {
   name: "Kheer",
-  img: "img/kheer.jpg",
+  img: "kheer.jpg",
   ingredients: ["Rice", "Milk", "Sugar", "Cardamom", "Dry fruits"],
   steps: [
     "Boil milk and add soaked rice.",
@@ -758,7 +758,7 @@ cuisine: "Indian",
 },
 {
   name: "Mango Shrikhand",
-  img: "img/mangoshrikhand.jpg",
+  img: "mangoshrikhand.jpg",
   ingredients: ["Hung curd", "Mango pulp", "Sugar", "Cardamom", "Saffron"],
   steps: [
     "Mix mango pulp with hung curd and sugar.",
@@ -768,7 +768,7 @@ cuisine: "Indian",
 },
 {
   name: "Besan Ladoo",
-  img: "img/besanladoo.jpg",
+  img: "besanladoo.jpg",
   ingredients: ["Besan (gram flour)", "Ghee", "Sugar", "Cardamom", "Nuts"],
   steps: [
     "Roast besan in ghee until golden.",
@@ -778,7 +778,7 @@ cuisine: "Indian",
 },
 {
   name: "Fruit Custard",
-  img: "img/fruitcustard.jpg",
+  img: "fruitcustard.jpg",
   ingredients: ["Custard powder", "Milk", "Sugar", "Mixed fruits"],
   steps: [
     "Make custard using milk and sugar.",
@@ -789,7 +789,7 @@ cuisine: "Indian",
 
 {
   name: "Strawberry Cheesecake",
-  img: "img/strawberrycheesecake.jpg",
+  img: "strawberrycheesecake.jpg",
   ingredients: ["Digestive biscuits", "Butter", "Cream cheese", "Strawberry puree", "Sugar", "Agar-agar (or gelatin-free thickener)"],
   steps: [
     "Crush biscuits and mix with melted butter.",
@@ -800,7 +800,7 @@ cuisine: "Indian",
 },
 {
   name: "Blueberry Cheesecake",
-  img: "img/blueberrycheesecake.jpg",
+  img: "blueberrycheesecake.jpg",
   ingredients: ["Digestive biscuits", "Butter", "Cream cheese", "Blueberry compote", "Sugar", "Cornflour"],
   steps: [
     "Prepare base with crushed biscuits and butter.",
@@ -810,7 +810,7 @@ cuisine: "Indian",
 },
 {
   name: "Gajar Halwa",
-  img: "img/gajarhalwa.jpg",
+  img: "gajarhalwa.jpg",
   ingredients: ["Carrots", "Milk", "Sugar", "Ghee", "Cardamom", "Cashews"],
   steps: [
     "Grate carrots and cook in milk until soft.",
@@ -820,7 +820,7 @@ cuisine: "Indian",
 },
 {
   name: "Moong Dal Halwa",
-  img: "img/moonghalwa.jpg",
+  img: "moonghalwa.jpg",
   ingredients: ["Moong dal", "Ghee", "Sugar", "Milk", "Cardamom", "Dry fruits"],
   steps: [
     "Soak and grind dal.",
@@ -830,7 +830,7 @@ cuisine: "Indian",
 },
 {
   name: "Chocolate Lava Cake (Eggless)",
-  img: "img/lavacake.jpg",
+  img: "lavacake.jpg",
   ingredients: ["All-purpose flour", "Cocoa powder", "Baking soda", "Butter", "Dark chocolate", "Milk", "Sugar"],
   steps: [
     "Prepare batter and pour into ramekins.",
@@ -840,7 +840,7 @@ cuisine: "Indian",
 },
 {
   name: "Rava Kesari",
-  img: "img/kesari.jpg",
+  img: "kesari.jpg",
   ingredients: ["Rava (semolina)", "Sugar", "Ghee", "Cardamom", "Saffron", "Cashews"],
   steps: [
     "Roast rava in ghee.",
@@ -851,7 +851,7 @@ cuisine: "Indian",
 
 {
   name: "Eggless Lemon Cake",
-  img: "img/eggless-lemon-cake.jpg",
+  img: "eggless-lemon-cake.jpg",
   ingredients: ["All-purpose flour", "Baking soda", "Lemon juice", "Sugar", "Oil", "Yogurt", "Lemon zest"],
   steps: [
     "Preheat oven and grease baking tin.",
@@ -863,7 +863,7 @@ cuisine: "Indian",
 },
 {
   name: "Eggless Mango Cake",
-  img: "img/eggless-mango-cake.jpg",
+  img: "eggless-mango-cake.jpg",
   ingredients: ["All-purpose flour", "Baking powder", "Baking soda", "Mango pulp", "Sugar", "Oil", "Yogurt"],
   steps: [
     "Mix mango pulp, sugar, yogurt, and oil.",
@@ -874,7 +874,7 @@ cuisine: "Indian",
 },
 {
   name: "Eggless Banana Cake",
-  img: "img/eggless-banana-cake.jpg",
+  img: "eggless-banana-cake.jpg",
   ingredients: ["Bananas", "All-purpose flour", "Brown sugar", "Oil", "Baking soda", "Baking powder", "Vanilla extract"],
   steps: [
     "Mash bananas and mix with sugar and oil.",
@@ -885,7 +885,7 @@ cuisine: "Indian",
 },
 {
   name: "Eggless Pound Cake",
-  img: "img/eggless-pound-cake.jpg",
+  img: "eggless-pound-cake.jpg",
   ingredients: ["All-purpose flour", "Baking powder", "Butter", "Sugar", "Condensed milk", "Vanilla essence", "Milk"],
   steps: [
     "Cream butter and sugar, add condensed milk.",
@@ -896,7 +896,7 @@ cuisine: "Indian",
 },
 {
   name: "Eggless Marble Cake",
-  img: "img/eggless-marble-cake.jpg",
+  img: "eggless-marble-cake.jpg",
   ingredients: ["All-purpose flour", "Sugar", "Yogurt", "Baking powder", "Cocoa powder", "Milk", "Oil"],
   steps: [
     "Make vanilla and cocoa batters separately.",
@@ -907,7 +907,7 @@ cuisine: "Indian",
 },
 {
   name: "Chocolate Brownies",
-  img: "img/brownies.jpg",
+  img: "brownies.jpg",
   ingredients: ["Flour", "Cocoa powder", "Sugar", "Butter", "Yogurt", "Vanilla extract", "Choco chips"],
   steps: [
     "Mix wet ingredients and whisk well.",
@@ -918,7 +918,7 @@ cuisine: "Indian",
 },
 {
   name: "Banana Muffins",
-  img: "img/banana-muffins.jpg",
+  img: "banana-muffins.jpg",
   ingredients: ["Bananas", "Flour", "Sugar", "Baking soda", "Oil", "Vanilla", "Milk"],
   steps: [
     "Mash bananas and mix with sugar and oil.",
@@ -928,7 +928,7 @@ cuisine: "Indian",
 },
 {
   name: "Eggless Cranberry Orange Muffins",
-  img: "img/eggless-cranberry-orange-muffins.jpg",
+  img: "eggless-cranberry-orange-muffins.jpg",
   ingredients: ["Flour", "Orange zest", "Cranberries", "Baking powder", "Sugar", "Milk", "Oil"],
   steps: [
     "Combine dry ingredients with cranberries and zest.",
@@ -938,7 +938,7 @@ cuisine: "Indian",
 },
 {
   name: "Nutter Butter Ghost Cookies",
-  img: "img/ghost-cookies.jpg",
+  img: "ghost-cookies.jpg",
   ingredients: ["Nutter Butter cookies", "White chocolate", "Black icing gel"],
   steps: [
     "Dip Nutter Butter cookies in melted white chocolate.",
@@ -948,7 +948,7 @@ cuisine: "Indian",
 },
 {
   name: "Eggless Pumpkin Pie",
-  img: "img/eggless-pumpkin-pie.jpg",
+  img: "eggless-pumpkin-pie.jpg",
   ingredients: ["Pumpkin puree", "Condensed milk", "Cornstarch", "Cinnamon", "Nutmeg", "Pie crust"],
   steps: [
     "Blend all ingredients and pour into pie crust.",
@@ -958,7 +958,7 @@ cuisine: "Indian",
 },
 {
   name: "Peach Crumble",
-  img: "img/peach-crumble.jpg",
+  img: "peach-crumble.jpg",
   ingredients: ["Peach slices", "Brown sugar", "Flour", "Butter", "Oats", "Cinnamon"],
   steps: [
     "Layer peaches in baking dish.",
@@ -969,7 +969,7 @@ cuisine: "Indian",
 },
 {
   name: "Red Velvet Cheesecake Brownies",
-  img: "img/red-velvet-cheesecake-brownies.jpg",
+  img: "red-velvet-cheesecake-brownies.jpg",
   ingredients: ["Flour", "Cocoa", "Sugar", "Butter", "Red color", "Cream cheese", "Vanilla extract"],
   steps: [
     "Prepare red velvet brownie base.",
@@ -992,13 +992,13 @@ cuisine: "Indian",
       starters: [
         {
           name: "Chicken Lollipop",
-          img: "img/lollipop.jpg",
+          img: "lollipop.jpg",
           ingredients: ["Chicken", "Spices", "Flour"],
           steps: ["Marinate.", "Fry.", "Serve hot."]
         },
         {
           name: "Fish Fry",
-          img: "img/fish.jpg",
+          img: "fish.jpg",
           ingredients: ["Fish fillets", "Turmeric", "Red chili", "Ginger garlic paste", "Oil"],
           steps: [
             "Marinate fish with spices.",
@@ -1008,7 +1008,7 @@ cuisine: "Indian",
         },
         {
           name: "Prawn Tempura",
-          img: "img/prawns.jpg",
+          img: "prawns.jpg",
           ingredients: ["Prawns", "Tempura flour", "Ice water", "Oil"],
           steps: [
             "Dip prawns in tempura batter.",
@@ -1018,7 +1018,7 @@ cuisine: "Indian",
         },
         {
           name: "Chicken Shawarma",
-          img: "img/shawarma.jpeg",
+          img: "shawarma.jpeg",
           ingredients: [
             "Boneless chicken",
             "Yogurt",
@@ -1040,7 +1040,7 @@ cuisine: "Indian",
       main: [
         {
           name: "Butter Chicken",
-          img: "img/butterchicken.jpg",
+          img: "butterchicken.jpg",
           ingredients: ["Chicken", "Butter", "Tomatoes", "Cream", "Spices"],
           steps: [
             "Cook chicken in spices.",
@@ -1053,7 +1053,7 @@ cuisine: "Indian",
 
      {
       name: "Mutton Rogan Josh",
-      img: "img/roganjosh.jpg",
+      img: "roganjosh.jpg",
       ingredients: ["Mutton", "Yogurt", "Onion", "Spices", "Garlic"],
       steps: [
         "Sear mutton with onions and garlic.",
@@ -1064,7 +1064,7 @@ cuisine: "Indian",
     },
     {
       name: "Fish Curry",
-      img: "img/fishcurry.jpg",
+      img: "fishcurry.jpg",
       ingredients: ["Fish", "Tamarind", "Coconut milk", "Mustard seeds", "Spices"],
       steps: [
         "Marinate fish in turmeric and salt.",
@@ -1075,7 +1075,7 @@ cuisine: "Indian",
     },
     {
       name: "Egg Curry",
-      img: "img/egg.jpg",
+      img: "egg.jpg",
       ingredients: ["Boiled eggs", "Onions", "Tomatoes", "Ginger garlic paste", "Spices"],
       steps: [
         "Prepare onion-tomato masala.",
@@ -1085,7 +1085,7 @@ cuisine: "Indian",
     },
     {
       name: "Chicken Biryani",
-      img: "img/chickenbiryani.jpg",
+      img: "chickenbiryani.jpg",
       ingredients: ["Chicken", "Rice", "Yogurt", "Fried onions", "Spices", "Saffron"],
       steps: [
         "Marinate chicken with yogurt and spices.",
@@ -1102,7 +1102,7 @@ cuisine: "Indian",
 desserts: [
        {
     name: "Egg Pudding",
-    img: "img/eggpudding.jpg",
+    img: "eggpudding.jpg",
     ingredients: ["Milk", "Eggs", "Sugar", "Vanilla essence"],
     steps: [
       "Beat eggs with sugar and vanilla.",
@@ -1115,7 +1115,7 @@ desserts: [
 
 {
   name: "Chocolate Mousse",
-  img: "img/chocolatemousse.jpg",
+  img: "chocolatemousse.jpg",
   ingredients: ["Dark chocolate", "Eggs", "Sugar", "Whipped cream"],
   steps: [
     "Melt chocolate and let it cool slightly.",
@@ -1128,7 +1128,7 @@ desserts: [
 
 {
   name: "Tiramisu",
-  img: "img/tiramisu.jpg",
+  img: "tiramisu.jpg",
   ingredients: ["Eggs", "Mascarpone", "Sugar", "Ladyfingers", "Coffee", "Cocoa powder"],
   steps: [
     "Beat egg yolks with sugar until creamy.",
