@@ -14,10 +14,7 @@ function selectCategory(category) {
   showRecipes();
 }
 
-
 let currentDisplayedRecipes = [];
-
-
 
 function showRecipes() {
   const recipeList = {
@@ -25,28 +22,28 @@ function showRecipes() {
       starters: [
         {
           name: "Paneer Tikka",
-          img: "img/tikka.jpg",
+          img: "tikka.jpg",
           cuisine: "Indian",
           ingredients: ["Paneer cubes", "Yogurt", "Spices", "Capsicum"],
           steps: ["Mix yogurt with spices.", "Marinate paneer.", "Grill it."]
         },
         {
           name: "Veg Spring Rolls",
-          img: "img/springrolls.jpeg",
+          img: "springrolls.jpeg",
           cuisine: "Chinese",
           ingredients: ["Sheets", "Cabbage", "Carrot", "Sauce"],
           steps: ["Cook filling.", "Wrap.", "Fry till crispy."]
         },
         {
           name: "Hara Bhara Kabab",
-          img: "img/hara-bhara.jpg",
+          img: "hara-bhara.jpg",
           cuisine: "Indian",
           ingredients: ["Spinach", "Peas", "Potatoes", "Spices"],
           steps: ["Boil vegetables.", "Mash & season.", "Shape and shallow fry."]
         },
         {
           name: "Veg Manchurian",
-          img: "img/manchurian.jpg",
+          img: "manchurian.jpg",
           cuisine: "Chinese",
           ingredients: ["Cabbage", "Carrot", "Flour", "Soy Sauce", "Garlic", "Chili Sauce"],
           steps: [
@@ -55,101 +52,98 @@ function showRecipes() {
             "Prepare spicy sauce and toss fried balls."
           ]
         },
-
-{
-  name: "Hakka Noodles",
-  img: "img/hakka.jpg",
-  cuisine: "chinese",
-  ingredients: ["Noodles", "Bell peppers", "Cabbage", "Soy sauce", "Garlic", "Spring onions"],
-  steps: [
-    "Boil noodles and keep aside.",
-    "Stir-fry vegetables in oil.",
-    "Add noodles, soy sauce, and toss well."
-  ]
-},
-{
-  name: "Margherita Pizza",
-  img: "img/pizza.jpeg",
-  cuisine: "italian",
-  ingredients: ["Pizza base", "Tomato sauce", "Mozzarella cheese", "Basil leaves"],
-  steps: [
-    "Spread sauce on base.",
-    "Top with cheese and basil.",
-    "Bake until cheese melts and crust is golden."
-  ]
-},
-{
-  name: "Creamy Pasta",
-  img: "img/pasta.jpg",
-  cuisine: "italian",
-  ingredients: ["Pasta", "Cream", "Garlic", "Oregano", "Cheese", "Butter"],
-  steps: [
-    "Boil pasta and drain.",
-    "Cook garlic in butter, add cream and herbs.",
-    "Mix with pasta and top with cheese."
-  ]
-},
-{
-  name: "Garlic Bread",
-  img: "img/garlicbread.jpg",
-  cuisine: "italian",
-  ingredients: ["Bread slices", "Butter", "Garlic", "Parsley", "Cheese (optional)"],
-  steps: [
-    "Mix butter with minced garlic and parsley.",
-    "Spread on bread and bake until crispy.",
-    "Top with cheese if desired and re-bake."
-  ]
-},
-{
-  name: "Paneer Chilli",
-  img: "img/paneer-chilli.jpg",
-  cuisine: "chinese",
-  ingredients: ["Paneer cubes", "Capsicum", "Onion", "Soy sauce", "Garlic", "Green chili"],
-  steps: [
-    "Fry paneer and keep aside.",
-    "Stir-fry veggies and sauces.",
-    "Mix in paneer and toss well."
-  ]
-},
-{
-  name: "Cheese Corn Balls",
-  img: "img/cheese-corn-balls.jpg",
-  cuisine: "indian",
-  ingredients: ["Sweet corn", "Cheese", "Boiled potato", "Cornflour", "Spices"],
-  steps: [
-    "Mix mashed corn, cheese, potato, and spices.",
-    "Shape into balls, coat with cornflour.",
-    "Deep fry until golden."
-  ]
-},
-{
-  name: "Crispy Mushroom Bites",
-  img: "img/mushroom-bites.jpeg",
-  cuisine: "continental",
-  ingredients: ["Mushrooms", "Breadcrumbs", "Flour", "Garlic powder", "Salt", "Pepper"],
-  steps: [
-    "Dip mushrooms in flour batter.",
-    "Coat with breadcrumbs.",
-    "Fry until crispy and golden."
-  ]
-},
-
-{
-  name: "Crispy Chilli Potatoes",
-  img: "img/chilli-potatoes.jpg",
-  cuisine: "chinese",
-  ingredients: ["Potato fingers", "Cornflour", "Soy sauce", "Garlic", "Chili sauce"],
-  steps: [
-    "Coat potato fingers in cornflour and fry.",
-    "Toss in a tangy sauce with garlic and chili.",
-    "Garnish with spring onions."
-  ]
-},
-
+        {
+          name: "Hakka Noodles",
+          img: "hakka.jpg",
+          cuisine: "Chinese",
+          ingredients: ["Noodles", "Bell peppers", "Cabbage", "Soy sauce", "Garlic", "Spring onions"],
+          steps: [
+            "Boil noodles and keep aside.",
+            "Stir-fry vegetables in oil.",
+            "Add noodles, soy sauce, and toss well."
+          ]
+        },
+        {
+          name: "Margherita Pizza",
+          img: "pizza.jpeg",
+          cuisine: "Italian",
+          ingredients: ["Pizza base", "Tomato sauce", "Mozzarella cheese", "Basil leaves"],
+          steps: [
+            "Spread sauce on base.",
+            "Top with cheese and basil.",
+            "Bake until cheese melts and crust is golden."
+          ]
+        },
+        {
+          name: "Creamy Pasta",
+          img: "pasta.jpg",
+          cuisine: "Italian",
+          ingredients: ["Pasta", "Cream", "Garlic", "Oregano", "Cheese", "Butter"],
+          steps: [
+            "Boil pasta and drain.",
+            "Cook garlic in butter, add cream and herbs.",
+            "Mix with pasta and top with cheese."
+          ]
+        },
+        {
+          name: "Garlic Bread",
+          img: "garlicbread.jpg",
+          cuisine: "Italian",
+          ingredients: ["Bread slices", "Butter", "Garlic", "Parsley", "Cheese (optional)"],
+          steps: [
+            "Mix butter with minced garlic and parsley.",
+            "Spread on bread and bake until crispy.",
+            "Top with cheese if desired and re-bake."
+          ]
+        },
+        {
+          name: "Paneer Chilli",
+          img: "paneer-chilli.jpg",
+          cuisine: "Chinese",
+          ingredients: ["Paneer cubes", "Capsicum", "Onion", "Soy sauce", "Garlic", "Green chili"],
+          steps: [
+            "Fry paneer and keep aside.",
+            "Stir-fry veggies and sauces.",
+            "Mix in paneer and toss well."
+          ]
+        },
+        {
+          name: "Cheese Corn Balls",
+          img: "cheese-corn-balls.jpg",
+          cuisine: "Indian",
+          ingredients: ["Sweet corn", "Cheese", "Boiled potato", "Cornflour", "Spices"],
+          steps: [
+            "Mix mashed corn, cheese, potato, and spices.",
+            "Shape into balls, coat with cornflour.",
+            "Deep fry until golden."
+          ]
+        },
+        {
+          name: "Crispy Mushroom Bites",
+          img: "mushroom-bites.jpeg",
+          cuisine: "Continental",
+          ingredients: ["Mushrooms", "Breadcrumbs", "Flour", "Garlic powder", "Salt", "Pepper"],
+          steps: [
+            "Dip mushrooms in flour batter.",
+            "Coat with breadcrumbs.",
+            "Fry until crispy and golden."
+          ]
+        },
+        {
+          name: "Crispy Chilli Potatoes",
+          img: "chilli-potatoes.jpg",
+          cuisine: "Chinese",
+          ingredients: ["Potato fingers", "Cornflour", "Soy sauce", "Garlic", "Chili sauce"],
+          steps: [
+            "Coat potato fingers in cornflour and fry.",
+            "Toss in a tangy sauce with garlic and chili.",
+            "Garnish with spring onions."
+          ]
+        },
 
 {
   name: "Veg Crispy",
-  img: "img/veg-crispy.jpg",
+  img: "veg-crispy.jpg",
   cuisine: "indo-chinese",
   ingredients: ["Mixed veggies", "Cornflour", "All-purpose flour", "Soy sauce", "Garlic", "Chili sauce"],
   steps: [
@@ -160,7 +154,7 @@ function showRecipes() {
 },
 {
   name: "Babycorn Chilli",
-  img: "img/babycorn-chilli.jpg",
+  img: "babycorn-chilli.jpg",
   cuisine: "indo-chinese",
   ingredients: ["Babycorn", "Cornflour", "Capsicum", "Soy sauce", "Garlic", "Chili flakes"],
   steps: [
@@ -171,7 +165,7 @@ function showRecipes() {
 },
 {
   name: "Tandoori Paneer (Green)",
-  img: "img/tandoori-paneer-green.jpg",
+  img: "tandoori-paneer-green.jpg",
   cuisine: "indian",
   ingredients: ["Paneer cubes", "Green chutney", "Curd", "Spices", "Mint", "Coriander"],
   steps: [
@@ -182,7 +176,7 @@ function showRecipes() {
 },
 {
   name: "Veg Lollipop",
-  img: "img/veg-lollipop.jpg",
+  img: "veg-lollipop.jpg",
   cuisine: "indo-chinese",
   ingredients: ["Boiled veggies", "Bread crumbs", "Spices", "Flour"],
   steps: [
@@ -193,7 +187,7 @@ function showRecipes() {
 },
 {
   name: "Bhindi Fry",
-  img: "img/bhindi-fry.jpg",
+  img: "bhindi-fry.jpg",
   cuisine: "indian",
   ingredients: ["Okra", "Rice flour", "Chili powder", "Turmeric", "Salt", "Oil"],
   steps: [
@@ -205,7 +199,7 @@ function showRecipes() {
 
 {
   name: "Stuffed Mushroom",
-  img: "img/stuffed-mushroom.jpg",
+  img: "stuffed-mushroom.jpg",
   cuisine: "fusion",
   ingredients: ["Mushrooms", "Paneer", "Spices", "Cheese", "Garlic"],
   steps: [
@@ -217,7 +211,7 @@ function showRecipes() {
 
 {
   name: "Masala Papad",
-  img: "img/masala-papad.jpg",
+  img: "masala-papad.jpg",
   cuisine: "indian",
   ingredients: ["Papad", "Onion", "Tomato", "Coriander", "Chaat masala", "Lemon juice"],
   steps: [
@@ -228,7 +222,7 @@ function showRecipes() {
 },
 {
   name: "Dill Leaves Pakoda",
-  img: "img/dill-pakoda.jpg",
+  img: "dill-pakoda.jpg",
   cuisine: "indian",
   ingredients: ["Dill leaves", "Gram flour", "Onions", "Spices", "Green chili"],
   steps: [
@@ -239,7 +233,7 @@ function showRecipes() {
 },
 {
   name: "Paneer Pakoda",
-  img: "img/paneer-pakoda.jpg",
+  img: "paneer-pakoda.jpg",
   cuisine: "indian",
   ingredients: ["Paneer slices", "Gram flour", "Carom seeds", "Spices", "Oil"],
   steps: [
@@ -250,7 +244,7 @@ function showRecipes() {
 },
 {
   name: "Khaman Dhokla",
-  img: "img/khaman-dhokla.jpg",
+  img: "khaman-dhokla.jpg",
   cuisine: "gujarati",
   ingredients: ["Gram flour", "Curd", "Eno", "Mustard seeds", "Curry leaves", "Sugar-water"],
   steps: [
@@ -261,7 +255,7 @@ function showRecipes() {
 },
 {
   name: "Mini Paneer Samosa",
-  img: "img/mini-paneer-samosa.jpg",
+  img: "mini-paneer-samosa.jpg",
   cuisine: "indian",
   ingredients: ["Paneer", "Spices", "All-purpose flour", "Oil"],
   steps: [
@@ -272,7 +266,7 @@ function showRecipes() {
 },
 {
   name: "Zucchini Chips",
-  img: "img/zucchini-chips.jpg",
+  img: "zucchini-chips.jpg",
   cuisine: "fusion",
   ingredients: ["Zucchini", "Bread crumbs", "Parmesan", "Olive oil"],
   steps: [
@@ -283,7 +277,7 @@ function showRecipes() {
 },
 {
   name: "Rava Dhokla",
-  img: "img/rava-dhokla.jpg",
+  img: "rava-dhokla.jpg",
   cuisine: "gujarati",
   ingredients: ["Semolina", "Curd", "Eno", "Mustard seeds", "Green chili", "Curry leaves"],
   steps: [
@@ -294,7 +288,7 @@ function showRecipes() {
 },
 {
   name: "Air Fryer Falafel",
-  img: "img/falafel.jpg",
+  img: "falafel.jpg",
   cuisine: "mediterranean",
   ingredients: ["Chickpeas", "Garlic", "Parsley", "Onions", "Spices"],
   steps: [
@@ -305,7 +299,7 @@ function showRecipes() {
 },
 {
   name: "Dahi Vada",
-  img: "img/dahi-vada.jpg",
+  img: "dahi-vada.jpg",
   cuisine: "indian",
   ingredients: ["Urad dal", "Curd", "Tamarind chutney", "Spices", "Coriander", "Pomegranate"],
   steps: [
@@ -317,7 +311,7 @@ function showRecipes() {
 
 {
   name: "Pani Puri",
-  img: "img/panipuri.jpg",
+  img: "panipuri.jpg",
   cuisine: "indian",
   ingredients: ["Puris", "Spiced mashed potatoes", "Tamarind water", "Mint water", "Boondi"],
   steps: [
@@ -328,7 +322,7 @@ function showRecipes() {
 },
 {
   name: "Sev Puri",
-  img: "img/sevpuri.jpg",
+  img: "sevpuri.jpg",
   cuisine: "indian",
   ingredients: ["Puris", "Boiled potatoes", "Onions", "Chutneys", "Sev", "Coriander"],
   steps: [
@@ -339,7 +333,7 @@ function showRecipes() {
 },
 {
   name: "Cheese Nachos",
-  img: "img/cheese-nachos.jpg",
+  img: "cheese-nachos.jpg",
   cuisine: "mexican",
   ingredients: ["Nacho chips", "Cheddar cheese", "Jalapenos", "Salsa", "Beans", "Olives"],
   steps: [
@@ -350,7 +344,7 @@ function showRecipes() {
 },
 {
   name: "Kothimbir Vadi",
-  img: "img/kothimbir-vadi.jpg",
+  img: "kothimbir-vadi.jpg",
   cuisine: "maharashtrian",
   ingredients: ["Coriander leaves", "Besan", "Spices", "Green chilies", "Oil"],
   steps: [
@@ -361,7 +355,7 @@ function showRecipes() {
 },
 {
   name: "Veg Kebab",
-  img: "img/veg-kebab.jpg",
+  img: "veg-kebab.jpg",
   cuisine: "indian",
   ingredients: ["Mixed veggies", "Paneer", "Bread crumbs", "Spices"],
   steps: [
@@ -372,7 +366,7 @@ function showRecipes() {
 },
 {
   name: "Veg Momos",
-  img: "img/veg-momos.jpg",
+  img: "veg-momos.jpg",
   cuisine: "tibetan",
   ingredients: ["Maida", "Cabbage", "Carrot", "Garlic", "Ginger", "Soy Sauce"],
   steps: [
@@ -384,7 +378,7 @@ function showRecipes() {
 
 {
   name: "Manchow Soup",
-  img: "img/manchow-soup.jpg",
+  img: "manchow-soup.jpg",
   cuisine: "chinese",
   ingredients: ["Mixed vegetables", "Soy sauce", "Garlic", "Ginger", "Cornflour", "Fried noodles"],
   steps: [
@@ -395,7 +389,7 @@ function showRecipes() {
 },
 {
   name: "Sweet Corn Soup",
-  img: "img/sweet-corn-soup.jpg",
+  img: "sweet-corn-soup.jpg",
   cuisine: "chinese",
   ingredients: ["Sweet corn", "Carrot", "Beans", "Cornflour", "Black pepper", "Salt"],
   steps: [
@@ -406,7 +400,7 @@ function showRecipes() {
 },
 {
   name: "Tomato Soup",
-  img: "img/tomato-soup.jpg",
+  img: "tomato-soup.jpg",
   cuisine: "indian",
   ingredients: ["Tomatoes", "Butter", "Garlic", "Pepper", "Sugar", "Cream"],
   steps: [
@@ -417,7 +411,7 @@ function showRecipes() {
 },
 {
   name: "Chutney Sandwich",
-  img: "img/chutney-sandwich.jpg",
+  img: "chutney-sandwich.jpg",
   cuisine: "indian",
   ingredients: ["Bread slices", "Green chutney", "Butter", "Cucumber", "Tomato", "Potato (optional)"],
   steps: [
@@ -428,7 +422,7 @@ function showRecipes() {
 },
 {
   name: "Khandvi",
-  img: "img/khandvi.jpg",
+  img: "khandvi.jpg",
   cuisine: "gujarati",
   ingredients: ["Besan", "Buttermilk", "Turmeric", "Green chili", "Curry leaves", "Mustard seeds"],
   steps: [
