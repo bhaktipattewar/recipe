@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Explore Recipes</title>
+  <link rel="stylesheet" href="explore.css" />
+</head>
+<body>
+  <div class="container">
+    <div class="step" id="step-1">
+      <h2>What type of food are you looking for?</h2>
+      <div class="options">
+        <div class="card" onclick="selectType('vegetarian')">
+          <img src="C:\Users\hp\Desktop\UI\recipe-book\img\veg.jpg" alt="Vegetarian">
+          <h3>Vegetarian</h3>
+        </div>
+        <div class="card" onclick="selectType('non-vegetarian')">
+          <img src="C:\Users\hp\Desktop\UI\recipe-book\img\nonveg.jpg" alt="Non-Vegetarian">
+          <h3>Non-Vegetarian</h3>
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+
+
+
+
+    <div class="step hidden" id="step-2">
+      <h2>Select a category</h2>
+      <div class="options">
+        <div class="card" onclick="selectCategory('starters')">
+          <img src="C:\Users\hp\Desktop\UI\recipe-book\img\starters.jpg" alt="Starters">
+          <h3>Starters</h3>
+        </div>
+        <div class="card" onclick="selectCategory('main')">
+          <img src="C:\Users\hp\Desktop\UI\recipe-book\img\maincourse.jpg" alt="Main Course">
+          <h3>Main Course</h3>
+        </div>
+        <div class="card" onclick="selectCategory('desserts')">
+          <img src="C:\Users\hp\Desktop\UI\recipe-book\img\dessert.jpg" alt="Desserts">
+          <h3>Desserts</h3>
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+
+    <div class="step hidden" id="step-3">
+      <h2 id="final-title">Your Recipes</h2>
+
+     <input type="text" id="searchInput" placeholder="Search recipes..." oninput="filterRecipes()" />
+
+      <div class="recipes" id="recipe-cards">
+        <!-- Recipes will appear here -->
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+<div id="recipeModal" class="modal hidden">
+  <div class="modal-content">
+    <span class="close" onclick="closeModal()">&times;</span>
+    <h2 id="modal-title"></h2>
+    <img id="modal-img" src="" alt="" />
+    <h4>Ingredients:</h4>
+    <ul id="modal-ingredients"></ul>
+    <h4>Steps:</h4>
+    <ol id="modal-steps"></ol>
+  </div>
+</div>
+
+
+  <script src="explore.js"></script>
+</body>
+</html>
